@@ -1,0 +1,3 @@
+/* Additional dashboard styles - main styles are inline in template */
+.loading { animation: pulse 1.5s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }

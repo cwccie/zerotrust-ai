@@ -1,0 +1,2942 @@
+[
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.1.3",
+    "port": 3306,
+    "protocol": "udp",
+    "bytes_sent": 91649,
+    "bytes_recv": 42132,
+    "timestamp": 1740000000,
+    "duration": 117.21084402117712
+  },
+  {
+    "src": "10.1.1.6",
+    "dst": "10.1.2.3",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 172869,
+    "bytes_recv": 144773,
+    "timestamp": 1740000060,
+    "duration": 33.61625395385668
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.3.2",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 546080,
+    "bytes_recv": 499277,
+    "timestamp": 1740000120,
+    "duration": 188.1865864114974
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.2.7",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 497025,
+    "bytes_recv": 181870,
+    "timestamp": 1740000180,
+    "duration": 126.0447906071959
+  },
+  {
+    "src": "10.1.4.3",
+    "dst": "10.1.3.7",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 198344,
+    "bytes_recv": 33103,
+    "timestamp": 1740000240,
+    "duration": 6.620765192578646
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.2.1",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 431790,
+    "bytes_recv": 303507,
+    "timestamp": 1740000300,
+    "duration": 102.84431566098029
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.4.5",
+    "port": 6379,
+    "protocol": "udp",
+    "bytes_sent": 622280,
+    "bytes_recv": 349199,
+    "timestamp": 1740000360,
+    "duration": 209.0621055801553
+  },
+  {
+    "src": "10.1.4.6",
+    "dst": "10.1.3.4",
+    "port": 8443,
+    "protocol": "udp",
+    "bytes_sent": 318953,
+    "bytes_recv": 297503,
+    "timestamp": 1740000420,
+    "duration": 39.594956046086494
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.2.3",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 237898,
+    "bytes_recv": 253982,
+    "timestamp": 1740000480,
+    "duration": 111.57697595400741
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.4.4",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 370374,
+    "bytes_recv": 149198,
+    "timestamp": 1740000540,
+    "duration": 136.7834018908783
+  },
+  {
+    "src": "10.1.1.6",
+    "dst": "10.1.3.6",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 191234,
+    "bytes_recv": 92038,
+    "timestamp": 1740000600,
+    "duration": 251.80110974465507
+  },
+  {
+    "src": "10.1.4.2",
+    "dst": "10.1.4.1",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 249561,
+    "bytes_recv": 61398,
+    "timestamp": 1740000660,
+    "duration": 12.355025431975504
+  },
+  {
+    "src": "10.1.2.4",
+    "dst": "10.1.3.5",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 273156,
+    "bytes_recv": 193914,
+    "timestamp": 1740000720,
+    "duration": 55.35712995905098
+  },
+  {
+    "src": "10.1.3.4",
+    "dst": "10.1.4.2",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 360649,
+    "bytes_recv": 77665,
+    "timestamp": 1740000780,
+    "duration": 111.88075165341976
+  },
+  {
+    "src": "10.1.3.4",
+    "dst": "10.1.1.6",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 127491,
+    "bytes_recv": 482672,
+    "timestamp": 1740000840,
+    "duration": 7.487312291597215
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.4.4",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 972980,
+    "bytes_recv": 167986,
+    "timestamp": 1740000900,
+    "duration": 46.82441970272544
+  },
+  {
+    "src": "10.1.4.3",
+    "dst": "10.1.3.4",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 678784,
+    "bytes_recv": 369959,
+    "timestamp": 1740000960,
+    "duration": 88.67410518034146
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.4.4",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 838516,
+    "bytes_recv": 296444,
+    "timestamp": 1740001020,
+    "duration": 218.56585081238424
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.2.4",
+    "port": 80,
+    "protocol": "udp",
+    "bytes_sent": 944001,
+    "bytes_recv": 21113,
+    "timestamp": 1740001080,
+    "duration": 41.83559380401462
+  },
+  {
+    "src": "10.1.3.4",
+    "dst": "10.1.1.4",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 421239,
+    "bytes_recv": 323859,
+    "timestamp": 1740001140,
+    "duration": 252.26466609163012
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.2.5",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 57806,
+    "bytes_recv": 318946,
+    "timestamp": 1740001200,
+    "duration": 192.39738271052366
+  },
+  {
+    "src": "10.1.3.5",
+    "dst": "10.1.3.3",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 205322,
+    "bytes_recv": 11921,
+    "timestamp": 1740001260,
+    "duration": 25.08602922266947
+  },
+  {
+    "src": "10.1.4.7",
+    "dst": "10.1.3.1",
+    "port": 80,
+    "protocol": "udp",
+    "bytes_sent": 203995,
+    "bytes_recv": 257245,
+    "timestamp": 1740001320,
+    "duration": 95.33416607167968
+  },
+  {
+    "src": "10.1.3.6",
+    "dst": "10.1.3.3",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 416969,
+    "bytes_recv": 77666,
+    "timestamp": 1740001380,
+    "duration": 214.79197206432136
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.2.5",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 12882,
+    "bytes_recv": 149338,
+    "timestamp": 1740001440,
+    "duration": 103.48261474529652
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.3.1",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 226272,
+    "bytes_recv": 381704,
+    "timestamp": 1740001500,
+    "duration": 266.34258493044723
+  },
+  {
+    "src": "10.1.4.3",
+    "dst": "10.1.2.7",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 171846,
+    "bytes_recv": 422504,
+    "timestamp": 1740001560,
+    "duration": 218.40292112848533
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.4.3",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 876197,
+    "bytes_recv": 307951,
+    "timestamp": 1740001620,
+    "duration": 179.3847327484379
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.1.7",
+    "port": 5432,
+    "protocol": "udp",
+    "bytes_sent": 909766,
+    "bytes_recv": 275509,
+    "timestamp": 1740001680,
+    "duration": 295.9916378135358
+  },
+  {
+    "src": "10.1.1.3",
+    "dst": "10.1.3.5",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 7040,
+    "bytes_recv": 214775,
+    "timestamp": 1740001740,
+    "duration": 191.64541185426714
+  },
+  {
+    "src": "10.1.2.2",
+    "dst": "10.1.2.7",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 744847,
+    "bytes_recv": 297851,
+    "timestamp": 1740001800,
+    "duration": 226.57557190017764
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.1.7",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 303624,
+    "bytes_recv": 290485,
+    "timestamp": 1740001860,
+    "duration": 147.18077955454177
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.4.6",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 518201,
+    "bytes_recv": 293324,
+    "timestamp": 1740001980,
+    "duration": 221.95940836050298
+  },
+  {
+    "src": "10.1.2.1",
+    "dst": "10.1.1.1",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 275536,
+    "bytes_recv": 157475,
+    "timestamp": 1740002040,
+    "duration": 286.80841857396183
+  },
+  {
+    "src": "10.1.4.6",
+    "dst": "10.1.3.7",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 685672,
+    "bytes_recv": 349230,
+    "timestamp": 1740002100,
+    "duration": 267.8070308269101
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.1.6",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 29924,
+    "bytes_recv": 62676,
+    "timestamp": 1740002160,
+    "duration": 229.41785956056668
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.1.3",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 609391,
+    "bytes_recv": 252012,
+    "timestamp": 1740002220,
+    "duration": 169.67672114622735
+  },
+  {
+    "src": "10.1.4.7",
+    "dst": "10.1.2.2",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 391430,
+    "bytes_recv": 268811,
+    "timestamp": 1740002280,
+    "duration": 219.88985159444326
+  },
+  {
+    "src": "10.1.1.1",
+    "dst": "10.1.4.7",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 610008,
+    "bytes_recv": 30776,
+    "timestamp": 1740002340,
+    "duration": 43.84967484519731
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.4.2",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 171341,
+    "bytes_recv": 27828,
+    "timestamp": 1740002400,
+    "duration": 81.80837939437792
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.3.7",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 304036,
+    "bytes_recv": 153015,
+    "timestamp": 1740002460,
+    "duration": 158.88840284442577
+  },
+  {
+    "src": "10.1.1.3",
+    "dst": "10.1.3.3",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 801934,
+    "bytes_recv": 49649,
+    "timestamp": 1740002520,
+    "duration": 179.63275877878834
+  },
+  {
+    "src": "10.1.1.6",
+    "dst": "10.1.3.4",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 867085,
+    "bytes_recv": 443120,
+    "timestamp": 1740002580,
+    "duration": 205.49329571347803
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.2.2",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 560480,
+    "bytes_recv": 304211,
+    "timestamp": 1740002640,
+    "duration": 105.49529399965861
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.1.1",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 391233,
+    "bytes_recv": 408419,
+    "timestamp": 1740002700,
+    "duration": 145.47485843616894
+  },
+  {
+    "src": "10.1.2.4",
+    "dst": "10.1.1.6",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 162162,
+    "bytes_recv": 264017,
+    "timestamp": 1740002760,
+    "duration": 66.34183938230387
+  },
+  {
+    "src": "10.1.1.7",
+    "dst": "10.1.4.5",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 437719,
+    "bytes_recv": 241530,
+    "timestamp": 1740002820,
+    "duration": 274.8101876973311
+  },
+  {
+    "src": "10.1.1.4",
+    "dst": "10.1.4.6",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 502911,
+    "bytes_recv": 182662,
+    "timestamp": 1740002880,
+    "duration": 93.47892401939853
+  },
+  {
+    "src": "10.1.2.5",
+    "dst": "10.1.1.5",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 180672,
+    "bytes_recv": 372289,
+    "timestamp": 1740002940,
+    "duration": 91.41223092092254
+  },
+  {
+    "src": "10.1.4.3",
+    "dst": "10.1.4.6",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 135066,
+    "bytes_recv": 449317,
+    "timestamp": 1740003000,
+    "duration": 208.27632860203366
+  },
+  {
+    "src": "10.1.4.2",
+    "dst": "10.1.2.1",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 220134,
+    "bytes_recv": 68371,
+    "timestamp": 1740003060,
+    "duration": 294.3330591759883
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.4.2",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 19819,
+    "bytes_recv": 406261,
+    "timestamp": 1740003120,
+    "duration": 145.28162590088422
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.1.2",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 34485,
+    "bytes_recv": 415889,
+    "timestamp": 1740003180,
+    "duration": 197.94005511498915
+  },
+  {
+    "src": "10.1.3.5",
+    "dst": "10.1.1.2",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 952762,
+    "bytes_recv": 132751,
+    "timestamp": 1740003240,
+    "duration": 12.994016004454682
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.4.1",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 820475,
+    "bytes_recv": 65003,
+    "timestamp": 1740003300,
+    "duration": 276.0302202633885
+  },
+  {
+    "src": "10.1.1.7",
+    "dst": "10.1.3.5",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 703275,
+    "bytes_recv": 184404,
+    "timestamp": 1740003360,
+    "duration": 8.787442249006656
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.4.7",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 369411,
+    "bytes_recv": 84278,
+    "timestamp": 1740003420,
+    "duration": 256.5428732377687
+  },
+  {
+    "src": "10.1.4.4",
+    "dst": "10.1.4.3",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 529535,
+    "bytes_recv": 299067,
+    "timestamp": 1740003480,
+    "duration": 20.51042829894059
+  },
+  {
+    "src": "10.1.4.6",
+    "dst": "10.1.3.5",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 750682,
+    "bytes_recv": 100526,
+    "timestamp": 1740003540,
+    "duration": 289.2794970339106
+  },
+  {
+    "src": "10.1.1.6",
+    "dst": "10.1.4.4",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 760683,
+    "bytes_recv": 51839,
+    "timestamp": 1740003600,
+    "duration": 277.2703868013805
+  },
+  {
+    "src": "10.1.3.3",
+    "dst": "10.1.4.7",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 732145,
+    "bytes_recv": 309105,
+    "timestamp": 1740003660,
+    "duration": 55.545882415513326
+  },
+  {
+    "src": "10.1.4.1",
+    "dst": "10.1.1.4",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 398155,
+    "bytes_recv": 222446,
+    "timestamp": 1740003720,
+    "duration": 64.29005740478752
+  },
+  {
+    "src": "10.1.2.1",
+    "dst": "10.1.2.7",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 129720,
+    "bytes_recv": 244366,
+    "timestamp": 1740003780,
+    "duration": 33.10374520237054
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.3.2",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 584295,
+    "bytes_recv": 378707,
+    "timestamp": 1740003840,
+    "duration": 12.192162856933178
+  },
+  {
+    "src": "10.1.2.4",
+    "dst": "10.1.3.2",
+    "port": 80,
+    "protocol": "udp",
+    "bytes_sent": 297488,
+    "bytes_recv": 239671,
+    "timestamp": 1740003900,
+    "duration": 180.1208486331624
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.4.1",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 580922,
+    "bytes_recv": 213633,
+    "timestamp": 1740003960,
+    "duration": 87.18389161213372
+  },
+  {
+    "src": "10.1.4.7",
+    "dst": "10.1.2.7",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 938318,
+    "bytes_recv": 441056,
+    "timestamp": 1740004020,
+    "duration": 240.73289564310224
+  },
+  {
+    "src": "10.1.4.1",
+    "dst": "10.1.2.5",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 707006,
+    "bytes_recv": 257865,
+    "timestamp": 1740004080,
+    "duration": 201.63192255460106
+  },
+  {
+    "src": "10.1.2.6",
+    "dst": "10.1.3.1",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 125108,
+    "bytes_recv": 75265,
+    "timestamp": 1740004140,
+    "duration": 118.44949044654724
+  },
+  {
+    "src": "10.1.4.2",
+    "dst": "10.1.3.5",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 67953,
+    "bytes_recv": 190788,
+    "timestamp": 1740004200,
+    "duration": 292.5624961827988
+  },
+  {
+    "src": "10.1.2.4",
+    "dst": "10.1.1.7",
+    "port": 27017,
+    "protocol": "udp",
+    "bytes_sent": 128825,
+    "bytes_recv": 122190,
+    "timestamp": 1740004260,
+    "duration": 251.4343583111242
+  },
+  {
+    "src": "10.1.4.3",
+    "dst": "10.1.3.2",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 793141,
+    "bytes_recv": 414021,
+    "timestamp": 1740004320,
+    "duration": 240.29725944692575
+  },
+  {
+    "src": "10.1.2.6",
+    "dst": "10.1.2.5",
+    "port": 8443,
+    "protocol": "udp",
+    "bytes_sent": 508169,
+    "bytes_recv": 268228,
+    "timestamp": 1740004380,
+    "duration": 83.67440105096068
+  },
+  {
+    "src": "10.1.4.4",
+    "dst": "10.1.3.1",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 262967,
+    "bytes_recv": 256655,
+    "timestamp": 1740004440,
+    "duration": 149.18716189976206
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.1.5",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 773737,
+    "bytes_recv": 27809,
+    "timestamp": 1740004500,
+    "duration": 249.09543746127125
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.4.1",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 401319,
+    "bytes_recv": 317076,
+    "timestamp": 1740004560,
+    "duration": 203.76451658236604
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.2.3",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 797197,
+    "bytes_recv": 40217,
+    "timestamp": 1740004620,
+    "duration": 198.3275705232874
+  },
+  {
+    "src": "10.1.3.3",
+    "dst": "10.1.4.4",
+    "port": 8443,
+    "protocol": "udp",
+    "bytes_sent": 211840,
+    "bytes_recv": 154011,
+    "timestamp": 1740004680,
+    "duration": 198.631349058112
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.3.3",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 848902,
+    "bytes_recv": 450815,
+    "timestamp": 1740004740,
+    "duration": 162.16329079524087
+  },
+  {
+    "src": "10.1.1.1",
+    "dst": "10.1.4.4",
+    "port": 22,
+    "protocol": "udp",
+    "bytes_sent": 922978,
+    "bytes_recv": 479791,
+    "timestamp": 1740004800,
+    "duration": 35.74904123898689
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.2.4",
+    "port": 8080,
+    "protocol": "udp",
+    "bytes_sent": 482084,
+    "bytes_recv": 18964,
+    "timestamp": 1740004860,
+    "duration": 9.867610236026213
+  },
+  {
+    "src": "10.1.3.4",
+    "dst": "10.1.4.1",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 515453,
+    "bytes_recv": 225900,
+    "timestamp": 1740004920,
+    "duration": 40.3551277812926
+  },
+  {
+    "src": "10.1.4.2",
+    "dst": "10.1.2.6",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 596587,
+    "bytes_recv": 354007,
+    "timestamp": 1740004980,
+    "duration": 147.17120800358782
+  },
+  {
+    "src": "10.1.3.4",
+    "dst": "10.1.4.1",
+    "port": 9090,
+    "protocol": "udp",
+    "bytes_sent": 499128,
+    "bytes_recv": 294883,
+    "timestamp": 1740005040,
+    "duration": 256.30689734996645
+  },
+  {
+    "src": "10.1.3.3",
+    "dst": "10.1.1.2",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 518821,
+    "bytes_recv": 309977,
+    "timestamp": 1740005100,
+    "duration": 291.2615188207144
+  },
+  {
+    "src": "10.1.3.6",
+    "dst": "10.1.4.1",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 336150,
+    "bytes_recv": 32303,
+    "timestamp": 1740005160,
+    "duration": 8.453814507820605
+  },
+  {
+    "src": "10.1.1.2",
+    "dst": "10.1.1.5",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 848978,
+    "bytes_recv": 389151,
+    "timestamp": 1740005220,
+    "duration": 175.1942537586367
+  },
+  {
+    "src": "10.1.4.4",
+    "dst": "10.1.3.7",
+    "port": 6379,
+    "protocol": "udp",
+    "bytes_sent": 102178,
+    "bytes_recv": 224572,
+    "timestamp": 1740005280,
+    "duration": 103.54945683280928
+  },
+  {
+    "src": "10.1.2.5",
+    "dst": "10.1.2.7",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 693460,
+    "bytes_recv": 128146,
+    "timestamp": 1740005340,
+    "duration": 74.29170314873961
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.2.3",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 954712,
+    "bytes_recv": 360805,
+    "timestamp": 1740005400,
+    "duration": 19.659415818998934
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.1.4",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 20769,
+    "bytes_recv": 282385,
+    "timestamp": 1740005460,
+    "duration": 97.84179018350623
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.4.1",
+    "port": 8080,
+    "protocol": "udp",
+    "bytes_sent": 279670,
+    "bytes_recv": 10796,
+    "timestamp": 1740005520,
+    "duration": 208.79058330159836
+  },
+  {
+    "src": "10.1.3.5",
+    "dst": "10.1.1.1",
+    "port": 6379,
+    "protocol": "udp",
+    "bytes_sent": 598159,
+    "bytes_recv": 204730,
+    "timestamp": 1740005580,
+    "duration": 96.73318641190133
+  },
+  {
+    "src": "10.1.1.4",
+    "dst": "10.1.4.5",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 724523,
+    "bytes_recv": 354052,
+    "timestamp": 1740005640,
+    "duration": 61.78043568586465
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.3.3",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 644793,
+    "bytes_recv": 157135,
+    "timestamp": 1740005700,
+    "duration": 109.00665826394135
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.1.7",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 881302,
+    "bytes_recv": 445920,
+    "timestamp": 1740005760,
+    "duration": 160.75484869816816
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.2.2",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 601480,
+    "bytes_recv": 210878,
+    "timestamp": 1740005820,
+    "duration": 241.38285983468245
+  },
+  {
+    "src": "10.1.3.6",
+    "dst": "10.1.4.3",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 620715,
+    "bytes_recv": 176700,
+    "timestamp": 1740005880,
+    "duration": 82.01674590453699
+  },
+  {
+    "src": "10.1.3.5",
+    "dst": "10.1.4.5",
+    "port": 9090,
+    "protocol": "udp",
+    "bytes_sent": 447952,
+    "bytes_recv": 110063,
+    "timestamp": 1740005940,
+    "duration": 104.20147296546078
+  },
+  {
+    "src": "10.1.1.3",
+    "dst": "10.1.3.7",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 454039,
+    "bytes_recv": 347942,
+    "timestamp": 1740006000,
+    "duration": 161.988874270862
+  },
+  {
+    "src": "10.1.1.7",
+    "dst": "10.1.2.7",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 655422,
+    "bytes_recv": 270301,
+    "timestamp": 1740006060,
+    "duration": 135.9740493119609
+  },
+  {
+    "src": "10.1.4.4",
+    "dst": "10.1.3.4",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 658442,
+    "bytes_recv": 368848,
+    "timestamp": 1740006120,
+    "duration": 154.87207227806982
+  },
+  {
+    "src": "10.1.1.6",
+    "dst": "10.1.3.5",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 693005,
+    "bytes_recv": 432065,
+    "timestamp": 1740006180,
+    "duration": 222.6649812160545
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.2.2",
+    "port": 9090,
+    "protocol": "udp",
+    "bytes_sent": 980136,
+    "bytes_recv": 296908,
+    "timestamp": 1740006240,
+    "duration": 217.98725440406258
+  },
+  {
+    "src": "10.1.1.2",
+    "dst": "10.1.3.3",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 485052,
+    "bytes_recv": 77560,
+    "timestamp": 1740006300,
+    "duration": 72.11978061475075
+  },
+  {
+    "src": "10.1.4.3",
+    "dst": "10.1.4.1",
+    "port": 5432,
+    "protocol": "udp",
+    "bytes_sent": 430289,
+    "bytes_recv": 167166,
+    "timestamp": 1740006360,
+    "duration": 258.0571830593497
+  },
+  {
+    "src": "10.1.1.3",
+    "dst": "10.1.3.7",
+    "port": 3306,
+    "protocol": "udp",
+    "bytes_sent": 280001,
+    "bytes_recv": 431961,
+    "timestamp": 1740006420,
+    "duration": 86.12050865856062
+  },
+  {
+    "src": "10.1.1.6",
+    "dst": "10.1.2.2",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 425681,
+    "bytes_recv": 125133,
+    "timestamp": 1740006480,
+    "duration": 34.076437402719066
+  },
+  {
+    "src": "10.1.1.7",
+    "dst": "10.1.1.1",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 486806,
+    "bytes_recv": 254580,
+    "timestamp": 1740006540,
+    "duration": 167.951904909745
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.1.2",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 286059,
+    "bytes_recv": 71628,
+    "timestamp": 1740006660,
+    "duration": 8.752268860090274
+  },
+  {
+    "src": "10.1.2.2",
+    "dst": "10.1.4.1",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 675691,
+    "bytes_recv": 447066,
+    "timestamp": 1740006780,
+    "duration": 12.679289155352322
+  },
+  {
+    "src": "10.1.4.3",
+    "dst": "10.1.3.2",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 901439,
+    "bytes_recv": 470127,
+    "timestamp": 1740006840,
+    "duration": 25.18802302426316
+  },
+  {
+    "src": "10.1.3.6",
+    "dst": "10.1.2.3",
+    "port": 80,
+    "protocol": "udp",
+    "bytes_sent": 940434,
+    "bytes_recv": 190644,
+    "timestamp": 1740006900,
+    "duration": 201.50490530962202
+  },
+  {
+    "src": "10.1.1.3",
+    "dst": "10.1.2.6",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 117469,
+    "bytes_recv": 299454,
+    "timestamp": 1740006960,
+    "duration": 220.34677732318306
+  },
+  {
+    "src": "10.1.1.4",
+    "dst": "10.1.3.3",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 520666,
+    "bytes_recv": 463866,
+    "timestamp": 1740007020,
+    "duration": 27.083733818163534
+  },
+  {
+    "src": "10.1.3.6",
+    "dst": "10.1.1.4",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 872865,
+    "bytes_recv": 306455,
+    "timestamp": 1740007080,
+    "duration": 221.17353374050035
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.4.3",
+    "port": 3306,
+    "protocol": "udp",
+    "bytes_sent": 228698,
+    "bytes_recv": 75743,
+    "timestamp": 1740007140,
+    "duration": 32.053135830793714
+  },
+  {
+    "src": "10.1.1.7",
+    "dst": "10.1.2.2",
+    "port": 8443,
+    "protocol": "udp",
+    "bytes_sent": 266759,
+    "bytes_recv": 452508,
+    "timestamp": 1740007200,
+    "duration": 176.8483885089089
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.3.4",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 331963,
+    "bytes_recv": 286227,
+    "timestamp": 1740007260,
+    "duration": 127.14015714884911
+  },
+  {
+    "src": "10.1.4.1",
+    "dst": "10.1.2.1",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 380731,
+    "bytes_recv": 249253,
+    "timestamp": 1740007320,
+    "duration": 214.7042120243468
+  },
+  {
+    "src": "10.1.4.6",
+    "dst": "10.1.2.3",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 882448,
+    "bytes_recv": 387784,
+    "timestamp": 1740007380,
+    "duration": 198.6704080977619
+  },
+  {
+    "src": "10.1.1.2",
+    "dst": "10.1.4.2",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 579677,
+    "bytes_recv": 201788,
+    "timestamp": 1740007440,
+    "duration": 92.78745782232528
+  },
+  {
+    "src": "10.1.4.2",
+    "dst": "10.1.2.5",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 899408,
+    "bytes_recv": 232046,
+    "timestamp": 1740007500,
+    "duration": 116.5474197467398
+  },
+  {
+    "src": "10.1.2.6",
+    "dst": "10.1.2.2",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 981905,
+    "bytes_recv": 431435,
+    "timestamp": 1740007560,
+    "duration": 227.0028119192703
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.1.7",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 662121,
+    "bytes_recv": 166395,
+    "timestamp": 1740007620,
+    "duration": 263.8413795828536
+  },
+  {
+    "src": "10.1.4.4",
+    "dst": "10.1.3.7",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 287448,
+    "bytes_recv": 454366,
+    "timestamp": 1740007680,
+    "duration": 24.037566953458626
+  },
+  {
+    "src": "10.1.4.4",
+    "dst": "10.1.3.2",
+    "port": 8443,
+    "protocol": "udp",
+    "bytes_sent": 971602,
+    "bytes_recv": 441111,
+    "timestamp": 1740007740,
+    "duration": 99.82333719952874
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.4.6",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 732511,
+    "bytes_recv": 136923,
+    "timestamp": 1740007800,
+    "duration": 151.9052908309512
+  },
+  {
+    "src": "10.1.2.5",
+    "dst": "10.1.2.7",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 475379,
+    "bytes_recv": 364590,
+    "timestamp": 1740007860,
+    "duration": 8.214994491078045
+  },
+  {
+    "src": "10.1.1.2",
+    "dst": "10.1.3.7",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 829543,
+    "bytes_recv": 336220,
+    "timestamp": 1740007920,
+    "duration": 40.836306052749656
+  },
+  {
+    "src": "10.1.2.6",
+    "dst": "10.1.1.7",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 603879,
+    "bytes_recv": 43213,
+    "timestamp": 1740007980,
+    "duration": 33.25735161852204
+  },
+  {
+    "src": "10.1.2.1",
+    "dst": "10.1.3.3",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 831245,
+    "bytes_recv": 492625,
+    "timestamp": 1740008040,
+    "duration": 95.82654478007893
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.4.7",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 182005,
+    "bytes_recv": 360530,
+    "timestamp": 1740008100,
+    "duration": 177.91019444750484
+  },
+  {
+    "src": "10.1.2.4",
+    "dst": "10.1.4.5",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 88598,
+    "bytes_recv": 217415,
+    "timestamp": 1740008160,
+    "duration": 110.28619295407054
+  },
+  {
+    "src": "10.1.4.6",
+    "dst": "10.1.3.5",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 994264,
+    "bytes_recv": 12142,
+    "timestamp": 1740008280,
+    "duration": 276.934474441509
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.3.6",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 484987,
+    "bytes_recv": 104048,
+    "timestamp": 1740008340,
+    "duration": 78.542331816564
+  },
+  {
+    "src": "10.1.4.7",
+    "dst": "10.1.1.6",
+    "port": 22,
+    "protocol": "udp",
+    "bytes_sent": 648124,
+    "bytes_recv": 224968,
+    "timestamp": 1740008400,
+    "duration": 180.12181536737629
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.1.3",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 993356,
+    "bytes_recv": 297498,
+    "timestamp": 1740008460,
+    "duration": 35.213982137399384
+  },
+  {
+    "src": "10.1.4.2",
+    "dst": "10.1.3.3",
+    "port": 8080,
+    "protocol": "udp",
+    "bytes_sent": 867542,
+    "bytes_recv": 353265,
+    "timestamp": 1740008520,
+    "duration": 148.24976755106835
+  },
+  {
+    "src": "10.1.2.1",
+    "dst": "10.1.4.2",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 992107,
+    "bytes_recv": 452003,
+    "timestamp": 1740008580,
+    "duration": 244.0255937594083
+  },
+  {
+    "src": "10.1.2.2",
+    "dst": "10.1.2.3",
+    "port": 8443,
+    "protocol": "udp",
+    "bytes_sent": 136623,
+    "bytes_recv": 226229,
+    "timestamp": 1740008640,
+    "duration": 256.90275491937786
+  },
+  {
+    "src": "10.1.3.6",
+    "dst": "10.1.1.7",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 438751,
+    "bytes_recv": 94665,
+    "timestamp": 1740008700,
+    "duration": 122.5631453339095
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.1.1",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 247024,
+    "bytes_recv": 323942,
+    "timestamp": 1740008760,
+    "duration": 135.29849766797867
+  },
+  {
+    "src": "10.1.2.1",
+    "dst": "10.1.2.5",
+    "port": 27017,
+    "protocol": "udp",
+    "bytes_sent": 90003,
+    "bytes_recv": 5510,
+    "timestamp": 1740008820,
+    "duration": 140.66979359835494
+  },
+  {
+    "src": "10.1.4.7",
+    "dst": "10.1.2.4",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 748086,
+    "bytes_recv": 201162,
+    "timestamp": 1740008880,
+    "duration": 212.53886546584255
+  },
+  {
+    "src": "10.1.4.3",
+    "dst": "10.1.3.6",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 100007,
+    "bytes_recv": 292128,
+    "timestamp": 1740008940,
+    "duration": 17.635106570223435
+  },
+  {
+    "src": "10.1.2.4",
+    "dst": "10.1.2.1",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 635929,
+    "bytes_recv": 492575,
+    "timestamp": 1740009000,
+    "duration": 201.24075521732328
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.3.6",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 266078,
+    "bytes_recv": 264625,
+    "timestamp": 1740009060,
+    "duration": 185.90116650490083
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.2.6",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 935666,
+    "bytes_recv": 293470,
+    "timestamp": 1740009120,
+    "duration": 12.347085434200373
+  },
+  {
+    "src": "10.1.1.6",
+    "dst": "10.1.2.2",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 975618,
+    "bytes_recv": 177926,
+    "timestamp": 1740009180,
+    "duration": 263.3702466236858
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.1.3",
+    "port": 6379,
+    "protocol": "udp",
+    "bytes_sent": 148783,
+    "bytes_recv": 136627,
+    "timestamp": 1740009240,
+    "duration": 35.061448428837565
+  },
+  {
+    "src": "10.1.1.2",
+    "dst": "10.1.1.5",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 784249,
+    "bytes_recv": 189154,
+    "timestamp": 1740009300,
+    "duration": 277.87185037129746
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.2.2",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 542185,
+    "bytes_recv": 164207,
+    "timestamp": 1740009360,
+    "duration": 130.73825282814067
+  },
+  {
+    "src": "10.1.1.6",
+    "dst": "10.1.2.4",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 582767,
+    "bytes_recv": 447335,
+    "timestamp": 1740009420,
+    "duration": 276.85661273031883
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.4.5",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 198196,
+    "bytes_recv": 78020,
+    "timestamp": 1740009480,
+    "duration": 16.379604543938225
+  },
+  {
+    "src": "10.1.1.6",
+    "dst": "10.1.1.2",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 171599,
+    "bytes_recv": 370227,
+    "timestamp": 1740009540,
+    "duration": 140.14518062118137
+  },
+  {
+    "src": "10.1.1.4",
+    "dst": "10.1.3.2",
+    "port": 22,
+    "protocol": "udp",
+    "bytes_sent": 373938,
+    "bytes_recv": 371835,
+    "timestamp": 1740009600,
+    "duration": 168.2607476163283
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.3.2",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 129760,
+    "bytes_recv": 183393,
+    "timestamp": 1740009660,
+    "duration": 28.082427682713213
+  },
+  {
+    "src": "10.1.4.7",
+    "dst": "10.1.2.3",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 786465,
+    "bytes_recv": 266825,
+    "timestamp": 1740009720,
+    "duration": 246.77330122884166
+  },
+  {
+    "src": "10.1.3.5",
+    "dst": "10.1.4.1",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 611993,
+    "bytes_recv": 2263,
+    "timestamp": 1740009780,
+    "duration": 157.8093618259327
+  },
+  {
+    "src": "10.1.3.5",
+    "dst": "10.1.1.6",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 258214,
+    "bytes_recv": 402886,
+    "timestamp": 1740009840,
+    "duration": 149.43825175900596
+  },
+  {
+    "src": "10.1.1.4",
+    "dst": "10.1.2.4",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 714507,
+    "bytes_recv": 356951,
+    "timestamp": 1740009900,
+    "duration": 36.60606341106442
+  },
+  {
+    "src": "10.1.2.5",
+    "dst": "10.1.3.5",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 161345,
+    "bytes_recv": 15238,
+    "timestamp": 1740009960,
+    "duration": 24.328160391117244
+  },
+  {
+    "src": "10.1.4.6",
+    "dst": "10.1.4.2",
+    "port": 8443,
+    "protocol": "udp",
+    "bytes_sent": 658979,
+    "bytes_recv": 141300,
+    "timestamp": 1740010020,
+    "duration": 178.26533576268932
+  },
+  {
+    "src": "10.1.1.1",
+    "dst": "10.1.2.4",
+    "port": 22,
+    "protocol": "udp",
+    "bytes_sent": 340798,
+    "bytes_recv": 496820,
+    "timestamp": 1740010080,
+    "duration": 219.46624974799403
+  },
+  {
+    "src": "10.1.4.3",
+    "dst": "10.1.4.5",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 221734,
+    "bytes_recv": 452706,
+    "timestamp": 1740010140,
+    "duration": 14.614187758709281
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.2.3",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 780030,
+    "bytes_recv": 37179,
+    "timestamp": 1740010200,
+    "duration": 164.15139497965973
+  },
+  {
+    "src": "10.1.3.6",
+    "dst": "10.1.2.6",
+    "port": 80,
+    "protocol": "udp",
+    "bytes_sent": 267658,
+    "bytes_recv": 93428,
+    "timestamp": 1740010260,
+    "duration": 72.03163904469564
+  },
+  {
+    "src": "10.1.4.4",
+    "dst": "10.1.4.7",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 21608,
+    "bytes_recv": 446974,
+    "timestamp": 1740010320,
+    "duration": 62.47473995633852
+  },
+  {
+    "src": "10.1.2.6",
+    "dst": "10.1.4.4",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 678704,
+    "bytes_recv": 394657,
+    "timestamp": 1740010380,
+    "duration": 286.33019220786355
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.1.4",
+    "port": 5432,
+    "protocol": "udp",
+    "bytes_sent": 840114,
+    "bytes_recv": 226780,
+    "timestamp": 1740010440,
+    "duration": 220.7694264151744
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.4.1",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 376585,
+    "bytes_recv": 349024,
+    "timestamp": 1740010500,
+    "duration": 28.8424881415631
+  },
+  {
+    "src": "10.1.2.5",
+    "dst": "10.1.3.3",
+    "port": 3306,
+    "protocol": "udp",
+    "bytes_sent": 467180,
+    "bytes_recv": 464311,
+    "timestamp": 1740010560,
+    "duration": 116.43297698547796
+  },
+  {
+    "src": "10.1.2.2",
+    "dst": "10.1.3.5",
+    "port": 27017,
+    "protocol": "udp",
+    "bytes_sent": 94704,
+    "bytes_recv": 396718,
+    "timestamp": 1740010620,
+    "duration": 126.76667945005147
+  },
+  {
+    "src": "10.1.2.5",
+    "dst": "10.1.3.6",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 661422,
+    "bytes_recv": 223455,
+    "timestamp": 1740010680,
+    "duration": 27.893308829076748
+  },
+  {
+    "src": "10.1.3.3",
+    "dst": "10.1.2.4",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 679168,
+    "bytes_recv": 359885,
+    "timestamp": 1740010740,
+    "duration": 214.09350855998215
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.3.3",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 304924,
+    "bytes_recv": 245581,
+    "timestamp": 1740010800,
+    "duration": 131.21228212411808
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.3.2",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 134097,
+    "bytes_recv": 358877,
+    "timestamp": 1740010860,
+    "duration": 270.87205656379155
+  },
+  {
+    "src": "10.1.4.6",
+    "dst": "10.1.2.1",
+    "port": 9090,
+    "protocol": "udp",
+    "bytes_sent": 309934,
+    "bytes_recv": 298176,
+    "timestamp": 1740010920,
+    "duration": 14.328005036508937
+  },
+  {
+    "src": "10.1.1.3",
+    "dst": "10.1.1.2",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 535556,
+    "bytes_recv": 222877,
+    "timestamp": 1740010980,
+    "duration": 123.91169116172466
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.4.1",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 372824,
+    "bytes_recv": 133720,
+    "timestamp": 1740011040,
+    "duration": 175.67450974807178
+  },
+  {
+    "src": "10.1.4.4",
+    "dst": "10.1.3.3",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 776587,
+    "bytes_recv": 346957,
+    "timestamp": 1740011100,
+    "duration": 138.86905435877932
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.1.6",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 87436,
+    "bytes_recv": 218335,
+    "timestamp": 1740011160,
+    "duration": 263.0278365871796
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.2.4",
+    "port": 27017,
+    "protocol": "udp",
+    "bytes_sent": 794243,
+    "bytes_recv": 351509,
+    "timestamp": 1740011220,
+    "duration": 134.98987223630306
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.2.2",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 221421,
+    "bytes_recv": 97139,
+    "timestamp": 1740011280,
+    "duration": 23.475376632595967
+  },
+  {
+    "src": "10.1.3.6",
+    "dst": "10.1.2.2",
+    "port": 80,
+    "protocol": "udp",
+    "bytes_sent": 560433,
+    "bytes_recv": 9492,
+    "timestamp": 1740011340,
+    "duration": 1.764062404306241
+  },
+  {
+    "src": "10.1.1.4",
+    "dst": "10.1.1.1",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 482615,
+    "bytes_recv": 362805,
+    "timestamp": 1740011400,
+    "duration": 121.53342837971051
+  },
+  {
+    "src": "10.1.4.1",
+    "dst": "10.1.4.3",
+    "port": 27017,
+    "protocol": "udp",
+    "bytes_sent": 317608,
+    "bytes_recv": 324371,
+    "timestamp": 1740011460,
+    "duration": 243.94161255297678
+  },
+  {
+    "src": "10.1.3.6",
+    "dst": "10.1.2.5",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 91992,
+    "bytes_recv": 65682,
+    "timestamp": 1740011520,
+    "duration": 40.54283301958915
+  },
+  {
+    "src": "10.1.1.7",
+    "dst": "10.1.1.4",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 900839,
+    "bytes_recv": 14158,
+    "timestamp": 1740011580,
+    "duration": 62.776751805546475
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.1.5",
+    "port": 3306,
+    "protocol": "udp",
+    "bytes_sent": 883095,
+    "bytes_recv": 328335,
+    "timestamp": 1740011640,
+    "duration": 257.4582254292485
+  },
+  {
+    "src": "10.1.3.4",
+    "dst": "10.1.1.7",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 807211,
+    "bytes_recv": 243068,
+    "timestamp": 1740011700,
+    "duration": 44.45821236753453
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.1.1",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 946351,
+    "bytes_recv": 80013,
+    "timestamp": 1740011760,
+    "duration": 221.63696671085359
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.3.2",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 901661,
+    "bytes_recv": 235775,
+    "timestamp": 1740011820,
+    "duration": 175.57202855249096
+  },
+  {
+    "src": "10.1.1.7",
+    "dst": "10.1.2.3",
+    "port": 27017,
+    "protocol": "udp",
+    "bytes_sent": 53495,
+    "bytes_recv": 175133,
+    "timestamp": 1740011880,
+    "duration": 2.3722055509539577
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.4.7",
+    "port": 8080,
+    "protocol": "udp",
+    "bytes_sent": 889938,
+    "bytes_recv": 259991,
+    "timestamp": 1740011940,
+    "duration": 221.12612322801792
+  },
+  {
+    "src": "10.1.3.6",
+    "dst": "10.1.4.3",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 38915,
+    "bytes_recv": 255688,
+    "timestamp": 1740012000,
+    "duration": 119.91011486348083
+  },
+  {
+    "src": "10.1.3.3",
+    "dst": "10.1.3.5",
+    "port": 27017,
+    "protocol": "udp",
+    "bytes_sent": 243270,
+    "bytes_recv": 374593,
+    "timestamp": 1740012060,
+    "duration": 18.22079762315273
+  },
+  {
+    "src": "10.1.1.1",
+    "dst": "10.1.2.7",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 580230,
+    "bytes_recv": 33397,
+    "timestamp": 1740012120,
+    "duration": 80.36198276634686
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.2.7",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 518923,
+    "bytes_recv": 326572,
+    "timestamp": 1740012180,
+    "duration": 281.6899531658551
+  },
+  {
+    "src": "10.1.2.5",
+    "dst": "10.1.3.1",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 169270,
+    "bytes_recv": 151100,
+    "timestamp": 1740012240,
+    "duration": 217.86547849728512
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.2.5",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 532394,
+    "bytes_recv": 115287,
+    "timestamp": 1740012300,
+    "duration": 176.30173644298281
+  },
+  {
+    "src": "10.1.4.1",
+    "dst": "10.1.2.4",
+    "port": 27017,
+    "protocol": "udp",
+    "bytes_sent": 137629,
+    "bytes_recv": 463137,
+    "timestamp": 1740012360,
+    "duration": 88.02527865291589
+  },
+  {
+    "src": "10.1.4.2",
+    "dst": "10.1.2.6",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 834737,
+    "bytes_recv": 247734,
+    "timestamp": 1740012420,
+    "duration": 239.92852013925298
+  },
+  {
+    "src": "10.1.4.7",
+    "dst": "10.1.1.6",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 296277,
+    "bytes_recv": 362224,
+    "timestamp": 1740012480,
+    "duration": 224.77879800674845
+  },
+  {
+    "src": "10.1.4.1",
+    "dst": "10.1.3.2",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 209274,
+    "bytes_recv": 82053,
+    "timestamp": 1740012540,
+    "duration": 181.72864468679424
+  },
+  {
+    "src": "10.1.1.4",
+    "dst": "10.1.4.5",
+    "port": 8080,
+    "protocol": "udp",
+    "bytes_sent": 318502,
+    "bytes_recv": 123160,
+    "timestamp": 1740012600,
+    "duration": 62.83778807665098
+  },
+  {
+    "src": "10.1.1.2",
+    "dst": "10.1.1.1",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 374487,
+    "bytes_recv": 355005,
+    "timestamp": 1740012660,
+    "duration": 47.59005347671128
+  },
+  {
+    "src": "10.1.4.6",
+    "dst": "10.1.4.7",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 846107,
+    "bytes_recv": 33479,
+    "timestamp": 1740012720,
+    "duration": 101.32704903596516
+  },
+  {
+    "src": "10.1.1.4",
+    "dst": "10.1.3.6",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 589380,
+    "bytes_recv": 117590,
+    "timestamp": 1740012780,
+    "duration": 145.9147257072781
+  },
+  {
+    "src": "10.1.2.4",
+    "dst": "10.1.4.5",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 807603,
+    "bytes_recv": 460274,
+    "timestamp": 1740012840,
+    "duration": 167.1111347882799
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.4.7",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 740819,
+    "bytes_recv": 26535,
+    "timestamp": 1740012900,
+    "duration": 277.9903632149909
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.4.5",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 111135,
+    "bytes_recv": 409910,
+    "timestamp": 1740012960,
+    "duration": 183.1756574182261
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.4.7",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 532048,
+    "bytes_recv": 55365,
+    "timestamp": 1740013020,
+    "duration": 50.12221902989995
+  },
+  {
+    "src": "10.1.1.4",
+    "dst": "10.1.4.7",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 164760,
+    "bytes_recv": 381964,
+    "timestamp": 1740013080,
+    "duration": 87.64397508570495
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.4.4",
+    "port": 9090,
+    "protocol": "udp",
+    "bytes_sent": 768236,
+    "bytes_recv": 456488,
+    "timestamp": 1740013140,
+    "duration": 29.79727874023598
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.2.5",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 129057,
+    "bytes_recv": 445008,
+    "timestamp": 1740013200,
+    "duration": 60.57508018909501
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.4.4",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 875465,
+    "bytes_recv": 424325,
+    "timestamp": 1740013260,
+    "duration": 142.1042631530211
+  },
+  {
+    "src": "10.1.2.3",
+    "dst": "10.1.3.3",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 279037,
+    "bytes_recv": 195363,
+    "timestamp": 1740013320,
+    "duration": 214.56277131204317
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.2.5",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 789894,
+    "bytes_recv": 395154,
+    "timestamp": 1740013380,
+    "duration": 158.89978572154376
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.2.1",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 433591,
+    "bytes_recv": 481406,
+    "timestamp": 1740013440,
+    "duration": 122.79870272450594
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.4.7",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 989683,
+    "bytes_recv": 15704,
+    "timestamp": 1740013500,
+    "duration": 132.7791810176807
+  },
+  {
+    "src": "10.1.4.4",
+    "dst": "10.1.1.1",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 88996,
+    "bytes_recv": 177468,
+    "timestamp": 1740013560,
+    "duration": 94.44822351806792
+  },
+  {
+    "src": "10.1.4.4",
+    "dst": "10.1.1.6",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 412469,
+    "bytes_recv": 398135,
+    "timestamp": 1740013620,
+    "duration": 11.137749172495646
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.1.5",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 662388,
+    "bytes_recv": 374111,
+    "timestamp": 1740013680,
+    "duration": 239.7232389506838
+  },
+  {
+    "src": "10.1.3.3",
+    "dst": "10.1.2.3",
+    "port": 8080,
+    "protocol": "udp",
+    "bytes_sent": 928910,
+    "bytes_recv": 357072,
+    "timestamp": 1740013740,
+    "duration": 210.24011044515362
+  },
+  {
+    "src": "10.1.4.7",
+    "dst": "10.1.2.3",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 8386,
+    "bytes_recv": 433688,
+    "timestamp": 1740013800,
+    "duration": 83.94142562138703
+  },
+  {
+    "src": "10.1.3.3",
+    "dst": "10.1.3.6",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 467963,
+    "bytes_recv": 337678,
+    "timestamp": 1740013860,
+    "duration": 61.548020079248026
+  },
+  {
+    "src": "10.1.3.4",
+    "dst": "10.1.3.6",
+    "port": 27017,
+    "protocol": "udp",
+    "bytes_sent": 731451,
+    "bytes_recv": 181110,
+    "timestamp": 1740013920,
+    "duration": 266.30359220319394
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.3.7",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 923868,
+    "bytes_recv": 158189,
+    "timestamp": 1740013980,
+    "duration": 25.293434176077554
+  },
+  {
+    "src": "10.1.3.4",
+    "dst": "10.1.2.4",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 545852,
+    "bytes_recv": 283629,
+    "timestamp": 1740014040,
+    "duration": 85.18551856188637
+  },
+  {
+    "src": "10.1.1.3",
+    "dst": "10.1.3.3",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 546760,
+    "bytes_recv": 178729,
+    "timestamp": 1740014100,
+    "duration": 227.11632682091962
+  },
+  {
+    "src": "10.1.1.6",
+    "dst": "10.1.1.1",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 253163,
+    "bytes_recv": 436427,
+    "timestamp": 1740014160,
+    "duration": 232.24959456525434
+  },
+  {
+    "src": "10.1.4.3",
+    "dst": "10.1.2.7",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 767643,
+    "bytes_recv": 31528,
+    "timestamp": 1740014220,
+    "duration": 252.47661646455475
+  },
+  {
+    "src": "10.1.2.2",
+    "dst": "10.1.3.7",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 129927,
+    "bytes_recv": 25125,
+    "timestamp": 1740014280,
+    "duration": 226.9704173132942
+  },
+  {
+    "src": "10.1.1.4",
+    "dst": "10.1.3.1",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 475259,
+    "bytes_recv": 177823,
+    "timestamp": 1740014340,
+    "duration": 294.8853392466667
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.4.3",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 367455,
+    "bytes_recv": 156967,
+    "timestamp": 1740014400,
+    "duration": 85.36780312866003
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.4.6",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 749151,
+    "bytes_recv": 198105,
+    "timestamp": 1740014460,
+    "duration": 155.90479756717622
+  },
+  {
+    "src": "10.1.2.1",
+    "dst": "10.1.1.4",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 862913,
+    "bytes_recv": 408284,
+    "timestamp": 1740014520,
+    "duration": 108.3866471685345
+  },
+  {
+    "src": "10.1.1.4",
+    "dst": "10.1.1.5",
+    "port": 8080,
+    "protocol": "udp",
+    "bytes_sent": 86027,
+    "bytes_recv": 48464,
+    "timestamp": 1740014580,
+    "duration": 18.667479826597624
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.3.2",
+    "port": 3306,
+    "protocol": "udp",
+    "bytes_sent": 81965,
+    "bytes_recv": 193716,
+    "timestamp": 1740014640,
+    "duration": 203.04996460267466
+  },
+  {
+    "src": "10.1.2.6",
+    "dst": "10.1.3.5",
+    "port": 9090,
+    "protocol": "udp",
+    "bytes_sent": 914473,
+    "bytes_recv": 138351,
+    "timestamp": 1740014700,
+    "duration": 175.29529025907217
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.2.7",
+    "port": 8443,
+    "protocol": "udp",
+    "bytes_sent": 767360,
+    "bytes_recv": 218687,
+    "timestamp": 1740014760,
+    "duration": 247.14531097271444
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.3.3",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 745795,
+    "bytes_recv": 240073,
+    "timestamp": 1740014820,
+    "duration": 38.82426254324509
+  },
+  {
+    "src": "10.1.4.2",
+    "dst": "10.1.3.3",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 728305,
+    "bytes_recv": 111585,
+    "timestamp": 1740014880,
+    "duration": 136.6351578258122
+  },
+  {
+    "src": "10.1.1.2",
+    "dst": "10.1.4.3",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 966569,
+    "bytes_recv": 499128,
+    "timestamp": 1740014940,
+    "duration": 35.638630037412376
+  },
+  {
+    "src": "10.1.4.7",
+    "dst": "10.1.2.7",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 387638,
+    "bytes_recv": 299869,
+    "timestamp": 1740015000,
+    "duration": 86.88427662457703
+  },
+  {
+    "src": "10.1.3.3",
+    "dst": "10.1.1.5",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 319836,
+    "bytes_recv": 196424,
+    "timestamp": 1740015060,
+    "duration": 90.98499221117382
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.1.1",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 821966,
+    "bytes_recv": 309232,
+    "timestamp": 1740015120,
+    "duration": 126.53287290971598
+  },
+  {
+    "src": "10.1.1.7",
+    "dst": "10.1.1.6",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 128370,
+    "bytes_recv": 287167,
+    "timestamp": 1740015240,
+    "duration": 104.6011965636811
+  },
+  {
+    "src": "10.1.4.7",
+    "dst": "10.1.1.2",
+    "port": 8080,
+    "protocol": "udp",
+    "bytes_sent": 600996,
+    "bytes_recv": 162472,
+    "timestamp": 1740015300,
+    "duration": 169.73353518126757
+  },
+  {
+    "src": "10.1.2.4",
+    "dst": "10.1.4.5",
+    "port": 8080,
+    "protocol": "udp",
+    "bytes_sent": 875094,
+    "bytes_recv": 377604,
+    "timestamp": 1740015360,
+    "duration": 250.1067028044675
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.4.4",
+    "port": 443,
+    "protocol": "udp",
+    "bytes_sent": 798778,
+    "bytes_recv": 235992,
+    "timestamp": 1740015420,
+    "duration": 200.16955124942905
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.4.7",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 838763,
+    "bytes_recv": 327659,
+    "timestamp": 1740015480,
+    "duration": 199.3540487024978
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.2.6",
+    "port": 3306,
+    "protocol": "udp",
+    "bytes_sent": 355565,
+    "bytes_recv": 283736,
+    "timestamp": 1740015540,
+    "duration": 13.755456108780692
+  },
+  {
+    "src": "10.1.4.1",
+    "dst": "10.1.3.1",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 908118,
+    "bytes_recv": 86929,
+    "timestamp": 1740015600,
+    "duration": 212.16551576086115
+  },
+  {
+    "src": "10.1.3.5",
+    "dst": "10.1.3.7",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 675292,
+    "bytes_recv": 293361,
+    "timestamp": 1740015660,
+    "duration": 25.554757907137976
+  },
+  {
+    "src": "10.1.3.6",
+    "dst": "10.1.3.4",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 598044,
+    "bytes_recv": 273649,
+    "timestamp": 1740015720,
+    "duration": 56.826867905334126
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.3.3",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 690329,
+    "bytes_recv": 490928,
+    "timestamp": 1740015780,
+    "duration": 159.56251234971896
+  },
+  {
+    "src": "10.1.1.1",
+    "dst": "10.1.2.2",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 870093,
+    "bytes_recv": 370046,
+    "timestamp": 1740015840,
+    "duration": 251.67684307432077
+  },
+  {
+    "src": "10.1.3.5",
+    "dst": "10.1.3.1",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 421415,
+    "bytes_recv": 308849,
+    "timestamp": 1740015900,
+    "duration": 13.504643356032636
+  },
+  {
+    "src": "10.1.4.7",
+    "dst": "10.1.1.1",
+    "port": 6379,
+    "protocol": "udp",
+    "bytes_sent": 189376,
+    "bytes_recv": 217646,
+    "timestamp": 1740015960,
+    "duration": 7.226841498135965
+  },
+  {
+    "src": "10.1.3.3",
+    "dst": "10.1.2.4",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 95546,
+    "bytes_recv": 60206,
+    "timestamp": 1740016020,
+    "duration": 293.93603623225613
+  },
+  {
+    "src": "10.1.3.4",
+    "dst": "10.1.1.6",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 191642,
+    "bytes_recv": 134084,
+    "timestamp": 1740016080,
+    "duration": 230.49372436901683
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.2.3",
+    "port": 8080,
+    "protocol": "tcp",
+    "bytes_sent": 61875,
+    "bytes_recv": 322262,
+    "timestamp": 1740016140,
+    "duration": 288.3373892081079
+  },
+  {
+    "src": "10.1.1.6",
+    "dst": "10.1.1.1",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 408981,
+    "bytes_recv": 51870,
+    "timestamp": 1740016200,
+    "duration": 96.01923873749925
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.2.4",
+    "port": 5432,
+    "protocol": "udp",
+    "bytes_sent": 987415,
+    "bytes_recv": 434074,
+    "timestamp": 1740016260,
+    "duration": 269.85145600951216
+  },
+  {
+    "src": "10.1.1.2",
+    "dst": "10.1.1.7",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 517026,
+    "bytes_recv": 266764,
+    "timestamp": 1740016320,
+    "duration": 225.71946969532468
+  },
+  {
+    "src": "10.1.2.6",
+    "dst": "10.1.1.4",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 333899,
+    "bytes_recv": 243801,
+    "timestamp": 1740016380,
+    "duration": 165.94079444444827
+  },
+  {
+    "src": "10.1.1.3",
+    "dst": "10.1.3.2",
+    "port": 22,
+    "protocol": "udp",
+    "bytes_sent": 664416,
+    "bytes_recv": 122647,
+    "timestamp": 1740016440,
+    "duration": 274.1213921356045
+  },
+  {
+    "src": "10.1.1.1",
+    "dst": "10.1.2.2",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 258381,
+    "bytes_recv": 400120,
+    "timestamp": 1740016500,
+    "duration": 166.41668794310655
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.1.5",
+    "port": 5432,
+    "protocol": "udp",
+    "bytes_sent": 467746,
+    "bytes_recv": 44092,
+    "timestamp": 1740016560,
+    "duration": 253.8848930084209
+  },
+  {
+    "src": "10.1.3.3",
+    "dst": "10.1.1.7",
+    "port": 443,
+    "protocol": "tcp",
+    "bytes_sent": 566792,
+    "bytes_recv": 88279,
+    "timestamp": 1740016620,
+    "duration": 234.60927856293313
+  },
+  {
+    "src": "10.1.3.4",
+    "dst": "10.1.2.7",
+    "port": 9090,
+    "protocol": "udp",
+    "bytes_sent": 43922,
+    "bytes_recv": 624,
+    "timestamp": 1740016680,
+    "duration": 243.79498887614136
+  },
+  {
+    "src": "10.1.4.6",
+    "dst": "10.1.3.6",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 669,
+    "bytes_recv": 31649,
+    "timestamp": 1740016740,
+    "duration": 280.0527097447514
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.2.2",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 880366,
+    "bytes_recv": 356614,
+    "timestamp": 1740016800,
+    "duration": 114.05225279660945
+  },
+  {
+    "src": "10.1.2.5",
+    "dst": "10.1.4.6",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 47794,
+    "bytes_recv": 84728,
+    "timestamp": 1740016860,
+    "duration": 221.75749184900107
+  },
+  {
+    "src": "10.1.3.5",
+    "dst": "10.1.1.3",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 414607,
+    "bytes_recv": 366278,
+    "timestamp": 1740016920,
+    "duration": 36.90185971216205
+  },
+  {
+    "src": "10.1.1.5",
+    "dst": "10.1.4.3",
+    "port": 9090,
+    "protocol": "tcp",
+    "bytes_sent": 921042,
+    "bytes_recv": 226572,
+    "timestamp": 1740016980,
+    "duration": 63.26294438613569
+  },
+  {
+    "src": "10.1.3.3",
+    "dst": "10.1.4.5",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 666123,
+    "bytes_recv": 137128,
+    "timestamp": 1740017040,
+    "duration": 293.8923079674741
+  },
+  {
+    "src": "10.1.4.2",
+    "dst": "10.1.3.1",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 694547,
+    "bytes_recv": 168731,
+    "timestamp": 1740017100,
+    "duration": 102.49552512694197
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.3.6",
+    "port": 6379,
+    "protocol": "tcp",
+    "bytes_sent": 958517,
+    "bytes_recv": 362826,
+    "timestamp": 1740017160,
+    "duration": 40.126386192117025
+  },
+  {
+    "src": "10.1.1.1",
+    "dst": "10.1.3.6",
+    "port": 8443,
+    "protocol": "tcp",
+    "bytes_sent": 945333,
+    "bytes_recv": 5121,
+    "timestamp": 1740017220,
+    "duration": 201.81519417531095
+  },
+  {
+    "src": "10.1.2.7",
+    "dst": "10.1.3.4",
+    "port": 8443,
+    "protocol": "udp",
+    "bytes_sent": 564371,
+    "bytes_recv": 42645,
+    "timestamp": 1740017280,
+    "duration": 236.1936974309185
+  },
+  {
+    "src": "10.1.1.3",
+    "dst": "10.1.3.4",
+    "port": 22,
+    "protocol": "udp",
+    "bytes_sent": 705000,
+    "bytes_recv": 64805,
+    "timestamp": 1740017400,
+    "duration": 105.90488975779701
+  },
+  {
+    "src": "10.1.4.6",
+    "dst": "10.1.2.6",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 405637,
+    "bytes_recv": 92996,
+    "timestamp": 1740017460,
+    "duration": 251.74534637668782
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.4.2",
+    "port": 22,
+    "protocol": "tcp",
+    "bytes_sent": 485268,
+    "bytes_recv": 194338,
+    "timestamp": 1740017520,
+    "duration": 280.8749923451642
+  },
+  {
+    "src": "10.1.3.1",
+    "dst": "10.1.1.1",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 795362,
+    "bytes_recv": 147495,
+    "timestamp": 1740017580,
+    "duration": 204.1695000910043
+  },
+  {
+    "src": "10.1.4.2",
+    "dst": "10.1.2.5",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 856032,
+    "bytes_recv": 321720,
+    "timestamp": 1740017640,
+    "duration": 187.57471509226056
+  },
+  {
+    "src": "10.1.4.5",
+    "dst": "10.1.4.2",
+    "port": 3306,
+    "protocol": "tcp",
+    "bytes_sent": 517895,
+    "bytes_recv": 190416,
+    "timestamp": 1740017700,
+    "duration": 11.048444917009016
+  },
+  {
+    "src": "10.1.3.2",
+    "dst": "10.1.4.2",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 7582,
+    "bytes_recv": 102905,
+    "timestamp": 1740017760,
+    "duration": 295.279218759081
+  },
+  {
+    "src": "10.1.3.7",
+    "dst": "10.1.2.6",
+    "port": 80,
+    "protocol": "tcp",
+    "bytes_sent": 596846,
+    "bytes_recv": 262414,
+    "timestamp": 1740017820,
+    "duration": 148.20845631995365
+  },
+  {
+    "src": "10.1.3.4",
+    "dst": "10.1.1.7",
+    "port": 27017,
+    "protocol": "tcp",
+    "bytes_sent": 68635,
+    "bytes_recv": 308467,
+    "timestamp": 1740017880,
+    "duration": 38.48263600226173
+  },
+  {
+    "src": "10.1.1.3",
+    "dst": "10.1.1.5",
+    "port": 5432,
+    "protocol": "tcp",
+    "bytes_sent": 923898,
+    "bytes_recv": 274344,
+    "timestamp": 1740017940,
+    "duration": 218.6723709140568
+  }
+]

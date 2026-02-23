@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroTrust-AI Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0e17; color: #e0e6ed; }
+        .header { background: linear-gradient(135deg, #1a1f2e, #0d1117); padding: 20px 30px; border-bottom: 1px solid #21262d; display: flex; align-items: center; justify-content: space-between; }
+        .header h1 { font-size: 24px; color: #58a6ff; }
+        .header .subtitle { color: #8b949e; font-size: 14px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px 30px; }
+        .card { background: #161b22; border: 1px solid #21262d; border-radius: 8px; padding: 20px; }
+        .card h2 { font-size: 16px; color: #58a6ff; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
+        .stat { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #21262d; }
+        .stat:last-child { border-bottom: none; }
+        .stat-label { color: #8b949e; }
+        .stat-value { font-weight: 600; }
+        .stat-value.good { color: #3fb950; }
+        .stat-value.warn { color: #d29922; }
+        .stat-value.danger { color: #f85149; }
+        .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+        .badge.low { background: #0d4429; color: #3fb950; }
+        .badge.medium { background: #4b3010; color: #d29922; }
+        .badge.high { background: #5c1a1a; color: #f85149; }
+        .badge.critical { background: #6e0b0b; color: #ff6b6b; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #21262d; }
+        th { color: #8b949e; font-size: 12px; text-transform: uppercase; }
+        .bar { height: 8px; border-radius: 4px; background: #21262d; overflow: hidden; }
+        .bar-fill { height: 100%; border-radius: 4px; transition: width 0.3s; }
+        .bar-fill.green { background: #3fb950; }
+        .bar-fill.yellow { background: #d29922; }
+        .bar-fill.red { background: #f85149; }
+        #trust-heatmap, #risk-timeline, #lateral-viz { min-height: 200px; display: flex; align-items: center; justify-content: center; color: #8b949e; }
+        .refresh-btn { background: #21262d; color: #58a6ff; border: 1px solid #30363d; padding: 8px 16px; border-radius: 6px; cursor: pointer; }
+        .refresh-btn:hover { background: #30363d; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>ZeroTrust-AI Dashboard</h1>
+            <div class="subtitle">Continuous Zero Trust Monitoring &amp; Analytics</div>
+        </div>
+        <button class="refresh-btn" onclick="location.reload()">Refresh</button>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <h2>Identity Overview</h2>
+            <div class="stat"><span class="stat-label">Total Identities</span><span class="stat-value">{{ identity_summary.total_identities }}</span></div>
+            <div class="stat"><span class="stat-label">Enabled</span><span class="stat-value good">{{ identity_summary.enabled_identities }}</span></div>
+            <div class="stat"><span class="stat-label">Total Devices</span><span class="stat-value">{{ identity_summary.total_devices }}</span></div>
+            <div class="stat"><span class="stat-label">Compliant Devices</span><span class="stat-value good">{{ identity_summary.compliant_devices }}</span></div>
+            <div class="stat"><span class="stat-label">Active Sessions</span><span class="stat-value">{{ identity_summary.active_sessions }}</span></div>
+        </div>
+
+        <div class="card">
+            <h2>Risk Summary</h2>
+            {% if risk_summary.total_entities > 0 %}
+            <div class="stat"><span class="stat-label">Entities Monitored</span><span class="stat-value">{{ risk_summary.total_entities }}</span></div>
+            <div class="stat"><span class="stat-label">Mean Risk</span><span class="stat-value {% if risk_summary.mean_risk < 0.3 %}good{% elif risk_summary.mean_risk < 0.7 %}warn{% else %}danger{% endif %}">{{ "%.2f"|format(risk_summary.mean_risk) }}</span></div>
+            <div class="stat"><span class="stat-label">Max Risk</span><span class="stat-value {% if risk_summary.max_risk < 0.3 %}good{% elif risk_summary.max_risk < 0.7 %}warn{% else %}danger{% endif %}">{{ "%.2f"|format(risk_summary.max_risk) }}</span></div>
+            {% else %}
+            <div class="stat"><span class="stat-label">Status</span><span class="stat-value">No data yet</span></div>
+            {% endif %}
+        </div>
+
+        <div class="card">
+            <h2>Access Decisions</h2>
+            <div class="stat"><span class="stat-label">Allowed</span><span class="stat-value good">{{ decision_stats.get('allow', 0) }}</span></div>
+            <div class="stat"><span class="stat-label">Denied</span><span class="stat-value danger">{{ decision_stats.get('deny', 0) }}</span></div>
+            <div class="stat"><span class="stat-label">Challenged</span><span class="stat-value warn">{{ decision_stats.get('challenge', 0) }}</span></div>
+            <div class="stat"><span class="stat-label">Restricted</span><span class="stat-value">{{ decision_stats.get('restrict', 0) }}</span></div>
+        </div>
+
+        <div class="card">
+            <h2>Policy Coverage</h2>
+            <div class="stat"><span class="stat-label">Total Policies</span><span class="stat-value">{{ policy_summary.total_policies }}</span></div>
+            <div class="stat"><span class="stat-label">Active Policies</span><span class="stat-value good">{{ policy_summary.enabled_policies }}</span></div>
+            <div class="stat"><span class="stat-label">Total Rules</span><span class="stat-value">{{ policy_summary.total_rules }}</span></div>
+        </div>
+
+        <div class="card" style="grid-column: span 2;">
+            <h2>Trust Score Heatmap</h2>
+            <div id="trust-heatmap">Loading trust scores...</div>
+        </div>
+
+        <div class="card" style="grid-column: span 2;">
+            <h2>Risk Timeline</h2>
+            <div id="risk-timeline">Loading risk timeline...</div>
+        </div>
+    </div>
+
+    <script>
+        fetch('/api/dashboard/trust-heatmap')
+            .then(r => r.json())
+            .then(data => {
+                const el = document.getElementById('trust-heatmap');
+                if (data.length === 0) {
+                    el.textContent = 'No behavioral data. Run baseline learning first.';
+                    return;
+                }
+                let html = '<table><tr><th>Entity</th><th>Trust Score</th><th>Observations</th></tr>';
+                data.forEach(d => {
+                    const color = d.trust_score > 0.7 ? 'green' : d.trust_score > 0.4 ? 'yellow' : 'red';
+                    html += `<tr><td>${d.entity_id}</td><td><div class="bar"><div class="bar-fill ${color}" style="width:${d.trust_score*100}%"></div></div></td><td>${d.observation_count}</td></tr>`;
+                });
+                html += '</table>';
+                el.innerHTML = html;
+            })
+            .catch(() => { document.getElementById('trust-heatmap').textContent = 'Error loading data'; });
+
+        fetch('/api/dashboard/risk-timeline')
+            .then(r => r.json())
+            .then(data => {
+                const el = document.getElementById('risk-timeline');
+                const keys = Object.keys(data);
+                if (keys.length === 0) {
+                    el.textContent = 'No risk data. Calculate risk scores first.';
+                    return;
+                }
+                let html = '<table><tr><th>Entity</th><th>Latest Risk</th><th>Level</th><th>Trend</th></tr>';
+                keys.forEach(eid => {
+                    const hist = data[eid];
+                    const latest = hist[hist.length - 1];
+                    const trend = hist.length > 1 ? (latest.score > hist[hist.length-2].score ? 'UP' : 'DOWN') : 'STABLE';
+                    html += `<tr><td>${eid}</td><td>${latest.score.toFixed(3)}</td><td><span class="badge ${latest.level}">${latest.level}</span></td><td>${trend}</td></tr>`;
+                });
+                html += '</table>';
+                el.innerHTML = html;
+            })
+            .catch(() => { document.getElementById('risk-timeline').textContent = 'Error loading data'; });
+    </script>
+</body>
+</html>

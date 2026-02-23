@@ -1,0 +1,376 @@
+[
+  {
+    "identity_id": "alice",
+    "name": "Alice User",
+    "identity_type": "user",
+    "email": "alice@zerotrust-corp.io",
+    "department": "engineering",
+    "roles": [
+      "analyst",
+      "developer"
+    ],
+    "groups": [
+      "engineering-team"
+    ],
+    "enabled": true,
+    "devices": [
+      {
+        "device_id": "dev-alice-1",
+        "device_type": "mobile",
+        "os": "linux",
+        "compliant": true,
+        "encrypted": true
+      },
+      {
+        "device_id": "dev-alice-2",
+        "device_type": "laptop",
+        "os": "windows",
+        "compliant": true,
+        "encrypted": true
+      },
+      {
+        "device_id": "dev-alice-3",
+        "device_type": "mobile",
+        "os": "windows",
+        "compliant": true,
+        "encrypted": true
+      }
+    ]
+  },
+  {
+    "identity_id": "bob",
+    "name": "Bob User",
+    "identity_type": "user",
+    "email": "bob@zerotrust-corp.io",
+    "department": "security",
+    "roles": [
+      "admin",
+      "developer"
+    ],
+    "groups": [
+      "security-team"
+    ],
+    "enabled": true,
+    "devices": [
+      {
+        "device_id": "dev-bob-1",
+        "device_type": "mobile",
+        "os": "macos",
+        "compliant": true,
+        "encrypted": true
+      },
+      {
+        "device_id": "dev-bob-2",
+        "device_type": "workstation",
+        "os": "linux",
+        "compliant": true,
+        "encrypted": true
+      },
+      {
+        "device_id": "dev-bob-3",
+        "device_type": "laptop",
+        "os": "linux",
+        "compliant": true,
+        "encrypted": false
+      }
+    ]
+  },
+  {
+    "identity_id": "charlie",
+    "name": "Charlie User",
+    "identity_type": "user",
+    "email": "charlie@zerotrust-corp.io",
+    "department": "finance",
+    "roles": [
+      "admin"
+    ],
+    "groups": [
+      "finance-team"
+    ],
+    "enabled": true,
+    "devices": [
+      {
+        "device_id": "dev-charlie-1",
+        "device_type": "mobile",
+        "os": "windows",
+        "compliant": true,
+        "encrypted": true
+      }
+    ]
+  },
+  {
+    "identity_id": "dave",
+    "name": "Dave User",
+    "identity_type": "user",
+    "email": "dave@zerotrust-corp.io",
+    "department": "hr",
+    "roles": [
+      "viewer",
+      "developer",
+      "operator"
+    ],
+    "groups": [
+      "hr-team"
+    ],
+    "enabled": true,
+    "devices": [
+      {
+        "device_id": "dev-dave-1",
+        "device_type": "workstation",
+        "os": "macos",
+        "compliant": true,
+        "encrypted": true
+      }
+    ]
+  },
+  {
+    "identity_id": "eve",
+    "name": "Eve User",
+    "identity_type": "user",
+    "email": "eve@zerotrust-corp.io",
+    "department": "operations",
+    "roles": [
+      "developer"
+    ],
+    "groups": [
+      "operations-team"
+    ],
+    "enabled": true,
+    "devices": [
+      {
+        "device_id": "dev-eve-1",
+        "device_type": "laptop",
+        "os": "windows",
+        "compliant": true,
+        "encrypted": true
+      },
+      {
+        "device_id": "dev-eve-2",
+        "device_type": "laptop",
+        "os": "macos",
+        "compliant": true,
+        "encrypted": true
+      }
+    ]
+  },
+  {
+    "identity_id": "frank",
+    "name": "Frank User",
+    "identity_type": "user",
+    "email": "frank@zerotrust-corp.io",
+    "department": "executive",
+    "roles": [
+      "developer",
+      "admin"
+    ],
+    "groups": [
+      "executive-team"
+    ],
+    "enabled": true,
+    "devices": [
+      {
+        "device_id": "dev-frank-1",
+        "device_type": "workstation",
+        "os": "windows",
+        "compliant": true,
+        "encrypted": true
+      },
+      {
+        "device_id": "dev-frank-2",
+        "device_type": "workstation",
+        "os": "linux",
+        "compliant": true,
+        "encrypted": true
+      },
+      {
+        "device_id": "dev-frank-3",
+        "device_type": "workstation",
+        "os": "windows",
+        "compliant": true,
+        "encrypted": true
+      }
+    ]
+  },
+  {
+    "identity_id": "grace",
+    "name": "Grace User",
+    "identity_type": "user",
+    "email": "grace@zerotrust-corp.io",
+    "department": "engineering",
+    "roles": [
+      "developer",
+      "analyst",
+      "operator"
+    ],
+    "groups": [
+      "engineering-team"
+    ],
+    "enabled": true,
+    "devices": [
+      {
+        "device_id": "dev-grace-1",
+        "device_type": "workstation",
+        "os": "macos",
+        "compliant": true,
+        "encrypted": true
+      },
+      {
+        "device_id": "dev-grace-2",
+        "device_type": "workstation",
+        "os": "linux",
+        "compliant": false,
+        "encrypted": false
+      }
+    ]
+  },
+  {
+    "identity_id": "heidi",
+    "name": "Heidi User",
+    "identity_type": "user",
+    "email": "heidi@zerotrust-corp.io",
+    "department": "security",
+    "roles": [
+      "viewer",
+      "developer"
+    ],
+    "groups": [
+      "security-team"
+    ],
+    "enabled": true,
+    "devices": [
+      {
+        "device_id": "dev-heidi-1",
+        "device_type": "laptop",
+        "os": "windows",
+        "compliant": true,
+        "encrypted": true
+      },
+      {
+        "device_id": "dev-heidi-2",
+        "device_type": "mobile",
+        "os": "windows",
+        "compliant": true,
+        "encrypted": true
+      },
+      {
+        "device_id": "dev-heidi-3",
+        "device_type": "laptop",
+        "os": "linux",
+        "compliant": true,
+        "encrypted": true
+      }
+    ]
+  },
+  {
+    "identity_id": "ivan",
+    "name": "Ivan User",
+    "identity_type": "user",
+    "email": "ivan@zerotrust-corp.io",
+    "department": "finance",
+    "roles": [
+      "developer",
+      "viewer",
+      "admin"
+    ],
+    "groups": [
+      "finance-team"
+    ],
+    "enabled": true,
+    "devices": [
+      {
+        "device_id": "dev-ivan-1",
+        "device_type": "mobile",
+        "os": "windows",
+        "compliant": false,
+        "encrypted": false
+      },
+      {
+        "device_id": "dev-ivan-2",
+        "device_type": "mobile",
+        "os": "windows",
+        "compliant": true,
+        "encrypted": true
+      }
+    ]
+  },
+  {
+    "identity_id": "judy",
+    "name": "Judy User",
+    "identity_type": "user",
+    "email": "judy@zerotrust-corp.io",
+    "department": "hr",
+    "roles": [
+      "analyst",
+      "admin",
+      "operator"
+    ],
+    "groups": [
+      "hr-team"
+    ],
+    "enabled": true,
+    "devices": [
+      {
+        "device_id": "dev-judy-1",
+        "device_type": "laptop",
+        "os": "linux",
+        "compliant": true,
+        "encrypted": true
+      },
+      {
+        "device_id": "dev-judy-2",
+        "device_type": "workstation",
+        "os": "windows",
+        "compliant": false,
+        "encrypted": true
+      }
+    ]
+  },
+  {
+    "identity_id": "api-gateway",
+    "name": "Api Gateway",
+    "identity_type": "service",
+    "roles": [
+      "service-account"
+    ],
+    "groups": [
+      "services"
+    ],
+    "enabled": true
+  },
+  {
+    "identity_id": "auth-service",
+    "name": "Auth Service",
+    "identity_type": "service",
+    "roles": [
+      "service-account"
+    ],
+    "groups": [
+      "services"
+    ],
+    "enabled": true
+  },
+  {
+    "identity_id": "data-pipeline",
+    "name": "Data Pipeline",
+    "identity_type": "service",
+    "roles": [
+      "service-account"
+    ],
+    "groups": [
+      "services"
+    ],
+    "enabled": true
+  },
+  {
+    "identity_id": "monitoring-agent",
+    "name": "Monitoring Agent",
+    "identity_type": "service",
+    "roles": [
+      "service-account"
+    ],
+    "groups": [
+      "services"
+    ],
+    "enabled": true
+  }
+]

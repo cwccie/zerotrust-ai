@@ -1,0 +1,87 @@
+policies:
+  - policy_id: deny-high-risk
+    name: Deny High Risk Access
+    description: Block access when composite risk score exceeds threshold
+    enabled: true
+    tags: [security, risk-based]
+    rules:
+      - rule_id: high-risk-deny
+        description: Deny when risk exceeds 0.8
+        effect: deny
+        priority: 10
+        conditions:
+          - field: risk_score
+            operator: gt
+            value: 0.8
+
+  - policy_id: require-mfa-sensitive
+    name: Require MFA for Sensitive Resources
+    description: Step-up authentication for sensitive resource access
+    enabled: true
+    tags: [authentication, mfa]
+    rules:
+      - rule_id: mfa-sensitive
+        description: Challenge access to sensitive resources without MFA
+        effect: challenge
+        priority: 20
+        conditions:
+          - field: resource_sensitivity
+            operator: gt
+            value: 0.7
+          - field: mfa_verified
+            operator: eq
+            value: false
+
+  - policy_id: restrict-external-write
+    name: Restrict External Write Access
+    description: Limit write operations from external networks
+    enabled: true
+    tags: [network, least-privilege]
+    rules:
+      - rule_id: external-write-restrict
+        description: Restrict write from external networks
+        effect: deny
+        priority: 15
+        conditions:
+          - field: network_zone
+            operator: eq
+            value: external
+          - field: action
+            operator: in
+            value: [write, delete, admin]
+
+  - policy_id: allow-internal-read
+    name: Allow Internal Read Access
+    description: Permit read access from internal networks with valid auth
+    enabled: true
+    tags: [baseline, internal]
+    rules:
+      - rule_id: internal-read-allow
+        description: Allow reads from internal network
+        effect: allow
+        priority: 50
+        conditions:
+          - field: network_zone
+            operator: eq
+            value: internal
+          - field: action
+            operator: eq
+            value: read
+          - field: risk_score
+            operator: lt
+            value: 0.5
+
+  - policy_id: block-compromised
+    name: Block Compromised Identities
+    description: Immediately deny access from known-compromised credentials
+    enabled: true
+    tags: [security, threat-intel]
+    rules:
+      - rule_id: compromised-deny
+        description: Deny access from compromised credentials
+        effect: deny
+        priority: 1
+        conditions:
+          - field: credential_compromised
+            operator: eq
+            value: true
