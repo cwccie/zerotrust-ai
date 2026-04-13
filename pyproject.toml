@@ -26,7 +26,7 @@ classifiers = [
     "Topic :: System :: Networking",
 ]
 dependencies = [
-    "numpy>=1.24.0",
+    "numpy>=2.2.6",
     "flask>=3.0.0",
     "click>=8.1.0",
     "pyyaml>=6.0",
