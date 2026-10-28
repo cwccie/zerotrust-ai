@@ -235,7 +235,7 @@ zerotrust-ai/
 
 **Corey A. Wade** — CISSP, CCIE #14124
 
-- PhD candidate in AI + Security
+- PhD in AI + Security
 - 20+ years in network security architecture
 - Building at the intersection of AI and zero trust
 
